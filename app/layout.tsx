@@ -30,6 +30,15 @@ export const metadata: Metadata = {
       "Pam",
       "Dominic Pam Software Developer",
    ],
+   icons: {
+      icon: "/imgs/logo.ico",
+      shortcut: "/imgs/logo-md.jpg",
+      apple: "/imgs/logo-md.jpg",
+      other: {
+         rel: "logo",
+         url: "/imgs/logo-md.jpg",
+      },
+   },
 }
 
 export default function RootLayout({
