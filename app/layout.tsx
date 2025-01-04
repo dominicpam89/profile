@@ -4,7 +4,7 @@ import { Poppins, Figtree } from "next/font/google"
 
 const fontPrimary = Poppins({
    subsets: ["latin"],
-   weight: ["900", "800", "700", "600"],
+   weight: ["900", "800", "700", "600", "500"],
    variable: "--font-primary",
 })
 

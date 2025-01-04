@@ -1,8 +1,8 @@
 export default function Page() {
    return (
       <>
-         <h2 className="font-primary">Primary</h2>
-         <p className="font-secondary">Secondary</p>
+         <h2 className="heading-3">Primary</h2>
+         <p>Secondary</p>
       </>
    )
 }

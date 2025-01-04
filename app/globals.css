@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-   font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer utilities {
    .text-balance {
       text-wrap: balance;
@@ -13,7 +9,7 @@ body {
 }
 
 @layer base {
-  :root {
+   :root {
       --background: 0 0% 100%;
       --foreground: 222.2 84% 4.9%;
       --card: 0 0% 100%;
@@ -40,7 +36,7 @@ body {
       --chart-5: 27 87% 67%;
       --radius: 0.5rem;
    }
-  .dark {
+   .dark {
       --background: 222.2 84% 4.9%;
       --foreground: 210 40% 98%;
       --card: 222.2 84% 4.9%;
@@ -69,10 +65,39 @@ body {
 }
 
 @layer base {
-  * {
-    @apply border-border;
+   * {
+      @apply border-border;
    }
-  body {
-    @apply bg-background text-foreground;
+   body {
+      @apply bg-background text-foreground font-secondary text-[1rem];
+   }
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+      @apply font-primary;
+   }
+}
+
+@layer components {
+   .heading-1 {
+      @apply text-[5.61rem] font-black;
+   }
+   .heading-2 {
+      @apply text-[4.209rem] font-black;
+   }
+   .heading-3 {
+      @apply text-[3.157rem] font-black;
+   }
+   .heading-4 {
+      @apply text-[2.369rem] font-extrabold;
+   }
+   .heading-5 {
+      @apply text-[1.777rem] font-extrabold;
+   }
+   .heading-6 {
+      @apply text-[1.333rem] font-bold;
    }
 }
