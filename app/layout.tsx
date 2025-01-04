@@ -29,6 +29,7 @@ export const metadata: Metadata = {
       "Dominic",
       "Pam",
       "Dominic Pam Software Developer",
+      "Dominic Pam Entrepreneur",
    ],
    icons: {
       icon: "/imgs/logo.ico",
